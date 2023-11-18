@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pop/theme/dark_theme.dart';
+import 'package:pop/theme/theme.dart';
 import 'router/router.dart';
 
 class CryptoCoinsListApp extends StatelessWidget {
@@ -9,7 +9,7 @@ class CryptoCoinsListApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: darkTheme,
+      theme: theme,
       routes: routes,
     );
   }

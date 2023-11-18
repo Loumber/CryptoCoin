@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-final darkTheme = ThemeData(
+final theme = ThemeData(
     appBarTheme: AppBarTheme(
         backgroundColor: Color(0xFF1F1F1F),
         titleTextStyle: TextStyle(
